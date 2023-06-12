@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Lexend+Mega:wght@800&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@500;700;800&family=Lexend:wght@400;500&family=Nunito&display=swap');
 
 *{
     margin: 0;
@@ -9,6 +9,7 @@
     --corheader: #da5555;
     --fonte-lexend: 'Lexend', sans-serif;
     --fonte-lexend-mega: 'Lexend Mega', sans-serif;
+    --fonte-nunito: 'Nunito', sans-serif;
 }
 body{
     background-color: #fff1e8;
@@ -65,6 +66,7 @@ main #title-info h2{
     font-family: var(--fonte-lexend-mega);
     text-align: center;
     font-size: 1.75em;
+    font-weight: bold;
     letter-spacing: -0.05rem;
 }
 
@@ -134,14 +136,24 @@ main .card1{
 }
 main .card1-img{
     width: 100%;
-    height: 85%;
+    height: 82%;
     border-radius: 15px;
+    margin-bottom: 4.5%;
+}
+main .card1-body{
+    text-align: center;
+    font-size: 1.1em;
+    font-family: var(--fonte-lexend-mega);
+    font-weight: 500;
 }
 main .card1-title{
-    padding-left: 22%;
-    font-size: 1.1em;
-    font-family: var(--fonte-lexend);
     text-decoration: none;
+    color: black;
+}
+main .card1-body a:hover{
+    color: #da5555;
+    text-decoration: underline;
+    transition: ease 0.1s;
 }
 main .card1-body > p{
     display: none;
@@ -150,10 +162,12 @@ main .card1-body:hover > p{
     display: block;
     position: absolute;
     width: 90.5vw;
-    height: 20vh;
+    height: 29vh;
     margin-top: 7vh;
     padding: 5%;
 
+    font-family: var(--fonte-nunito);
+    text-align: justify;
     background-color: #91FBB5;
     border: 1px solid #000000;
     border-radius: 15px;
@@ -175,14 +189,24 @@ main .card2{
 }
 main .card2-img{
     width: 100%;
-    height: 85%;
+    height: 82%;
     border-radius: 15px;
+    margin-bottom: 0.5%;
+}
+main .card2-body{
+    text-align: center;
+    font-size: 1.1em;
+    font-family: var(--fonte-lexend-mega);
+    font-weight: 500;
 }
 main .card2-title{
-    padding-left: 4%;
-    font-size: 1.1em;
-    font-family: var(--fonte-lexend);
     text-decoration: none;
+    color: black;
+}
+main .card2-body a:hover{
+    color: #da5555;
+    text-decoration: underline;
+    transition: ease 0.1s;
 }
 main .card2-body > p{
     display: none;
@@ -191,11 +215,13 @@ main .card2-body:hover > p{
     display: block;
     position: absolute;
     width: 90.5vw;
-    height: 35vh;
+    height: 50vh;
     margin-left: -23vw;
     margin-top: 7vh;
     padding: 5%;
 
+    font-family: var(--fonte-nunito);
+    text-align: justify;
     background-color: #ff9fd9;
     border: 1px solid #000000;
     border-radius: 15px;
@@ -217,14 +243,43 @@ main .card3{
 }
 main .card3-img{
     width: 100%;
-    height: 85%;
+    height: 82%;
     border-radius: 15px;
+    margin-bottom: 0.5%;
 }
-main .card3-title{
-    padding-top: 4%;
+main .card3-body{
     text-align: center;
     font-size: 1.1em;
-    font-family: var(--fonte-lexend);
+    font-family: var(--fonte-lexend-mega);
+    font-weight: 500;
+}
+main .card3-title{
+    text-decoration: none;
+    color: black;
+}
+main .card3-body a:hover{
+    color: #da5555;
+    text-decoration: underline;
+    transition: ease 0.1s;
+}
+main .card3-body p{
+    display: none;
+}
+main .card3-body:hover > p{
+    display: block;
+    position: absolute;
+    width: 90.5vw;
+    height: 43vh;
+    margin-left: -46.5vw;
+    margin-top: 7vh;
+    padding: 5%;
+
+    font-family: var(--fonte-nunito);
+    text-align: justify;
+    background-color: #cc8bff;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px black;
 }
 
 /*CARD 4*/
@@ -242,12 +297,41 @@ main .card4{
 }
 main .card4-img{
     width: 100%;
-    height: 85%;
+    height: 82%;
     border-radius: 15px;
+    margin-bottom: 0.5%;
 }
-main .card4-title{
-    padding-top: 4%;
+main .card4-body{
     text-align: center;
     font-size: 1.1em;
-    font-family: var(--fonte-lexend);
+    font-family: var(--fonte-lexend-mega);
+    font-weight: 500;
+}
+main .card4-title{
+    text-decoration: none;
+    color: black;
+}
+main .card4-body a:hover{
+    color: #da5555;
+    text-decoration: underline;
+    transition: ease 0.1s;
+}
+main .card4-body p{
+    display: none;
+}
+main .card4-body:hover > p{
+    display: block;
+    position: absolute;
+    width: 90.5vw;
+    height: 54vh;
+    margin-left: -69.5vw;
+    margin-top: 7vh;
+    padding: 5%;
+
+    font-family: var(--fonte-nunito);
+    text-align: justify;
+    background-color: #8ba4ff;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px black;
 }
