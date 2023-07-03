@@ -9,6 +9,8 @@
     --fonte-lexend: 'Lexend', sans-serif;
     --fonte-lexend-mega: 'Lexend Mega', sans-serif;
     --fonte-nunito: 'Nunito', sans-serif;
+
+    --standard-shadow: 5px 5px black;
 }
 
 body{
@@ -53,5 +55,76 @@ main #container-main{
     left: 0;
     right: 0;
     top: 90px;
-    bottom: -100%;
+}
+
+main #description{
+    margin: 0 4% 0.5em 4%;
+    font-family: var(--fonte-nunito);
+    font-size: 1.3em;
+}
+
+main #description .title{
+    font-family: var(--fonte-lexend-mega);
+    color: #000000;
+    background: #DDB2FF;
+    width: fit-content;
+    margin-bottom: 0.5em;
+    border: 2px solid black;
+    border-radius: 0 0 16px 16px;
+    box-shadow: var(--standard-shadow);
+    padding: 0.5em 1em;
+}
+
+main #container-main .container-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 4% 0.5em 4%;
+}
+
+main #container-main .container-cards .card-image{
+    width: 350px;
+}
+
+main #container-main .container-cards .grade, .horas, .trilhas{
+    border: 3px solid black;
+    box-shadow: var(--standard-shadow);
+}
+
+main .container-cards .card-text{
+    text-align: center;
+    padding: 3.5% 1.5%;
+    font-family: var(--fonte-lexend-mega);
+    font-size: 1.2rem;
+}
+
+main .container-cards .card-body{
+    text-align: center;
+    padding: 3.5% 1.5%;
+    font-family: var(--fonte-lexend-mega);
+    font-size: 1.2rem;
+}
+
+main .container-cards .card-body a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+main .container-cards .card-body a:hover{
+    text-decoration: underline;
+}
+
+main .container-cards .grade{
+    background-color: #E5FEFF;
+}
+
+main .container-cards .trilhas{
+    background-color: #FBE5FF;
+}
+
+main .container-cards .horas{
+    background-color: #E5FFE5;
 }
