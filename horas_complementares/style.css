@@ -51,6 +51,7 @@ header nav div a:hover{
     text-decoration: underline;
 }
 
+/*CABEÇALHO DA MAIN*/
 main #container-main{
     background: #FAF5F2;
     position: absolute;
@@ -77,56 +78,76 @@ main #description .title{
     padding: 0.5em 1em;
 }
 
-main #container-main .container-cards{
+main #description p{
+    width: 40%;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+/*MAIN CONFIGURAÇÕES GERAIS*/ 
+main #container-horas .quadrado1, .quadrado2, .quadrado3, .quadrado4, .quadrado5, .quadrado6, .quadrado7{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+main #container-horas h2{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
-    margin: 0 4% 0.5em 4%;
+    padding-top: 40%;
 }
 
-main #container-main .container-cards .card-image{
-    width: 350px;
-}
+/*QUADRADO 1*/
+main #container-horas .content-horas1 .title-horas1{
+    position: absolute;
+    left: 20%;
+    top: 19%;
 
-main #container-main .container-cards .grade, .horas, .trilhas{
-    border: 3px solid black;
+    font-family: var(--fonte-lexend-mega);
+    background-color: #D5FFDF;
+    width: min-content;
+    border: 2px solid black;
+    border-radius: 0 0 16px 16px;
     box-shadow: var(--standard-shadow);
+    padding: 0.5em 1em;
 }
 
-main .container-cards .card-text{
-    text-align: center;
-    padding: 3.5% 1.5%;
-    font-family: var(--fonte-lexend-mega);
-    font-size: 1.2rem;
+main #container-horas .content-horas1 p{
+    position: absolute;
+    left: 21.5%;
+    top: 27%;
+    width: 20%;
+
+    font-family: var(--fonte-nunito);
 }
 
-main .container-cards .card-body{
-    text-align: center;
-    padding: 3.5% 1.5%;
-    font-family: var(--fonte-lexend-mega);
-    font-size: 1.2rem;
+/*CORES DOS QUADRADOS*/
+main #container-horas .quadrado1{
+    background-color: #99FF99;
 }
 
-main .container-cards .card-body a{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
+main #container-horas .quadrado2{
+    background-color: #F199FF;
 }
 
-main .container-cards .card-body a:hover{
-    text-decoration: underline;
+main #container-horas .quadrado3{
+    background-color: #99FAFF;
 }
 
-main .container-cards .grade{
-    background-color: #E5FEFF;
+main #container-horas .quadrado4{
+    background-color: #FFE799;
 }
 
-main .container-cards .trilhas{
-    background-color: #FBE5FF;
+main #container-horas .quadrado5{
+    background-color: #ff7881;
 }
 
-main .container-cards .horas{
-    background-color: #E5FFE5;
+main #container-horas .quadrado6{
+    background-color: #ff83d4;
+}
+
+main #container-horas .quadrado7{
+    background-color: #ffbb7b;
 }
