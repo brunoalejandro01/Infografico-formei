@@ -200,7 +200,6 @@ main .quadrado4 .content-horas4 .title-horas4{
     box-shadow: var(--standard-shadow);
     padding: 0.5em 1em;
 }
-
 main .content-horas4 p{
     margin-left: 165%;
     padding-top: 1em;
@@ -215,6 +214,86 @@ main .quadrado4:hover > .content-horas4{
     display: block;
 }
 
+/*QUADRADO 5*/
+main .quadrado5 .content-horas5 .title-horas5{
+    margin-left: -260%;
+    margin-top: -60%;
+
+    font-family: var(--fonte-lexend-mega);
+    background-color: #FFE5E7;
+    width: 175%;
+    border: 2px solid black;
+    border-radius: 0 0 16px 16px;
+    box-shadow: var(--standard-shadow);
+    padding: 0.5em 1em;
+}
+main .content-horas5 p{
+    margin-left: -245%;
+    padding-top: 1em;
+    width: 150%;
+
+    font-family: var(--fonte-nunito);
+}
+main .content-horas5{
+    display: none;
+}
+main .quadrado5:hover > .content-horas5{
+    display: block;
+}
+
+/*QUADRADO 6*/
+main .quadrado6 .content-horas6 .title-horas6{
+    margin-left: 150%;
+    margin-top: -60%;
+
+    font-family: var(--fonte-lexend-mega);
+    background-color: #FFE5F6;
+    width: 180%;
+    border: 2px solid black;
+    border-radius: 0 0 16px 16px;
+    box-shadow: var(--standard-shadow);
+    padding: 1em 1em;
+}
+main .content-horas6 p{
+    margin-left: 165%;
+    padding-top: 1em;
+    width: 150%;
+
+    font-family: var(--fonte-nunito);
+}
+main .content-horas6{
+    display: none;
+}
+main .quadrado6:hover > .content-horas6{
+    display: block;
+}
+
+/*QUADRADO 7*/
+main .quadrado7 .content-horas7 .title-horas7{
+    margin-left: -260%;
+    margin-top: -60%;
+
+    font-family: var(--fonte-lexend-mega);
+    background-color: #FFF2E5;
+    width: 175%;
+    border: 2px solid black;
+    border-radius: 0 0 16px 16px;
+    box-shadow: var(--standard-shadow);
+    padding: 1em 1em;
+}
+main .content-horas7 p{
+    margin-left: -245%;
+    padding-top: 1em;
+    width: 150%;
+
+    font-family: var(--fonte-nunito);
+}
+main .content-horas7{
+    display: none;
+}
+main .quadrado7:hover > .content-horas7{
+    display: block;
+}
 
 /*CORES DOS QUADRADOS*/
 main .quadrado1{
