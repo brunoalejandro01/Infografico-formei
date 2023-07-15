@@ -242,9 +242,9 @@ main .card4 ul li{
     position: relative;
 }
 
-.imagem{
+.imagem, #gif{
     position: absolute;
-    margin-top: 31%;
+    margin-top: -34%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -252,4 +252,12 @@ main .card4 ul li{
     border-radius: 50%;
     width: 150px;
     height: 150px;
+}
+
+main #container-main .img1{
+    display: none;
+}
+
+main #container-main .img1 ~ .cards .card1:hover {
+    display: block;
 }
