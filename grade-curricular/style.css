@@ -94,6 +94,26 @@ section details .grid{
     margin-right: 4%;
 }
 
+section details .grid-quarto-semestre{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+section details .grid-678-semestre{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
 section summary{
     margin-left: 4%;
     margin-right: 4%;
@@ -189,4 +209,39 @@ section details .title_card{
 .card5 p{
     padding: 2% 2% 1.5% 2%;
     font-family: var(--fonte-nunito);
+}
+
+.card6{
+    background-color: #D5FFDF;
+    border-radius: 15px;
+    box-shadow: var(--standard-shadow);
+    margin-bottom: 2%;
+    border: 3px solid black;
+    width: 100%;
+}
+
+.card6 p{
+    padding: 2% 2% 1.5% 2%;
+    font-family: var(--fonte-nunito);
+}
+
+.card7{
+    background-color: #D5FFDF;
+    border-radius: 15px;
+    box-shadow: var(--standard-shadow);
+    margin-bottom: 2%;
+    border: 3px solid black;
+    width: 100%;
+}
+
+.card7 p{
+    padding: 2% 2% 1.5% 2%;
+    font-family: var(--fonte-nunito);
+}
+
+#obg{
+    background-color: #E5FEFF;
+}
+#eletiva{
+    background-color: #FFF9E5;
 }
