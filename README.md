@@ -5,7 +5,7 @@ O projeto em questão trata-se de um infográfico informativo que explora as car
 ## Acesso ao projeto
 
 Atenção, o código do projeto em questão encontra-se incompleto devido a sua finalização em outra máquina, assim, algumas funcionalidades podem não estar disponíveis ou funcionando incorretamente.
-Link: 
+Link: https://brunoalejandro01.github.io/tela-trilhas/
 
 ## Explicação sobre cada parte do projeto
 - **Trilhas do curso**
