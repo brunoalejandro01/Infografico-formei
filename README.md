@@ -2,6 +2,11 @@
 
 O projeto em questão trata-se de um infográfico informativo que explora as características fundamentais do curso de Sistemas e Mídias Digitais. Este infográfico foi criado com HTML e CSS para fornecer as informações principais sobre as trilhas do curso, a grade curricular e as horas complementares.
 
+## Acesso ao projeto
+
+Atenção, o código do projeto em questão encontra-se incompleto devido a sua finalização em outra máquina, assim, algumas funcionalidades podem não estar disponíveis ou funcionando incorretamente.
+Link: 
+
 ## Explicação sobre cada parte do projeto
 - **Trilhas do curso**
  
