@@ -2,10 +2,15 @@
 
 O projeto em questão trata-se de um infográfico informativo que explora as características fundamentais do curso de Sistemas e Mídias Digitais. Este infográfico foi criado com HTML e CSS para fornecer as informações principais sobre as trilhas do curso, a grade curricular e as horas complementares.
 
+📝 Este projeto é desenvolvido por estudantes da Universidade Federal do Ceará, para a disciplina de Projeto Integrado I, com o intuito de ajudar os discentes do curso de Sistemas e Mídias Digitais a calcular e entender o seu progresso no curso.
+
 ## Acesso ao projeto
 
 Atenção, o código do projeto em questão encontra-se incompleto devido a sua finalização em outra máquina, assim, algumas funcionalidades podem não estar disponíveis ou funcionando incorretamente.
-Link: https://brunoalejandro01.github.io/tela-trilhas/
+
+💎 Link para acessar somente as páginas do infográfico: https://brunoalejandro01.github.io/tela-trilhas/
+
+💎 Link para acessar o repositório do projeto completo: https://github.com/SamayUFC/EquipeJambo-SQMF.git
 
 ## Explicação sobre cada parte do projeto
 - **Trilhas do curso**
